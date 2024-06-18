@@ -8,7 +8,6 @@ public class ContaTerminal {
         //Obter pela Scanner os valores digitados no terminal 
         //Exibir a mensagem conta criada
 
-        //TODO: Conhecer e importar a classe Scanner
         Scanner scanner = new Scanner(System.in);
 
         //Exibir as mensagens para o nosso usuário
@@ -31,10 +30,9 @@ public class ContaTerminal {
         double saldo = scanner.nextDouble();
         // Usei nextDouble() para ler o saldo inicial como um valor numérico com frações decimais.
 
-        //Exibir a mensagem conta criada
         System.out.println("\nOlá " + nome + " " + sobrenome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroConta + " e seu saldo " + saldo + " já está disponível para saque.");
 
-        //Fechar scanner
         scanner.close();
     }
+
 }
